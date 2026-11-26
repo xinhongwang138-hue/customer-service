@@ -1,0 +1,23 @@
+[project]
+name = "customer-service-backend"
+version = "0.1.0"
+description = "电商小二 · AI 智能客服后端（FastAPI + LangChain + 三轨道对话引擎）"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.115",
+    "uvicorn[standard]>=0.30",
+    "pydantic>=2.7",
+    "pydantic-settings>=2.3",
+    "jinja2>=3.1",
+    "sqlalchemy>=2.0",
+    "aiosqlite>=0.20",
+    "aiomysql>=0.2",
+    "httpx>=0.27",
+    "langchain>=0.3",
+    "langchain-core>=0.3",
+    "langchain-openai>=0.2",
+]
+
+[tool.uv]
+package = false
